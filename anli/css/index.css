@@ -15,6 +15,7 @@ a:hover {
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
+    background-color: pink;
   }
 }
 
@@ -52,6 +53,7 @@ header {
   width: 25%;
   height: 128px;
   padding-right: 10px;
+  margin-bottom: 10px;
 }
 .news li a {
   position: relative;
@@ -66,6 +68,7 @@ header {
 .news li:nth-child(1) p {
   line-height: 41px;
   font-size: 20px;
+  padding: 0 10px;
 }
 .news li a img {
   width: 100%;
@@ -81,5 +84,5 @@ header {
   font-size: 12px;
   color: #fff;
   margin-bottom: 0;
-  padding: 0 10px;
+  padding: 5px 10px;
 }
