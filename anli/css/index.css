@@ -15,7 +15,7 @@ a:hover {
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
-    background-color: pink;
+    /* background-color: pink; */
   }
 }
 
@@ -85,4 +85,35 @@ header {
   color: #fff;
   margin-bottom: 0;
   padding: 5px 10px;
+}
+
+.publish {
+  border-top: 1px solid #ccc;
+}
+.publish .row {
+  border-bottom: solid 1px #ccc;
+  padding: 10px 0;
+}
+.pic {
+  margin-top: 10px;
+}
+.pic img {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.hot {
+  display: block;
+  margin-top: 20px;
+  padding: 0 20px 20px;
+  border: 1px solid #ccc;
+}
+.hot span {
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+.hot p {
+  font-size: 12px;
 }
